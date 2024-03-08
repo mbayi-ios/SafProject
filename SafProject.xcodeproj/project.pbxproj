@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDEF286D2B9AE2D3000FE324 /* SafProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF286C2B9AE2D3000FE324 /* SafProjectApp.swift */; };
+		CDEF286F2B9AE2D3000FE324 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF286E2B9AE2D3000FE324 /* ContentView.swift */; };
+		CDEF28712B9AE2D4000FE324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDEF28702B9AE2D4000FE324 /* Assets.xcassets */; };
+		CDEF28742B9AE2D4000FE324 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDEF28732B9AE2D4000FE324 /* Preview Assets.xcassets */; };
+		CDEF28892B9AED34000FE324 /* TrainBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF28882B9AED34000FE324 /* TrainBooking.swift */; };
+		CDEF288B2B9AED64000FE324 /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF288A2B9AED64000FE324 /* Symbols.swift */; };
+		CDEF288D2B9AED6D000FE324 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF288C2B9AED6D000FE324 /* Theme.swift */; };
+		CDEF28902B9AEEFC000FE324 /* TrainStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF288F2B9AEEFC000FE324 /* TrainStation.swift */; };
+		CDEF28932B9AF223000FE324 /* StaticJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF28922B9AF223000FE324 /* StaticJSONMapper.swift */; };
+		CDEF289B2B9AF383000FE324 /* TrainStation.json in Resources */ = {isa = PBXBuildFile; fileRef = CDEF289A2B9AF383000FE324 /* TrainStation.json */; };
+		CDEF289E2B9AF409000FE324 /* TrainBooking.json in Resources */ = {isa = PBXBuildFile; fileRef = CDEF289D2B9AF409000FE324 /* TrainBooking.json */; };
+		CDEF28A02B9AF4EE000FE324 /* TrainBookingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF289F2B9AF4EE000FE324 /* TrainBookingResponse.swift */; };
+		CDEF28A22B9AF516000FE324 /* TrainStationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF28A12B9AF516000FE324 /* TrainStationResponse.swift */; };
+		CDEF28A42B9AF728000FE324 /* TrainStationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF28A32B9AF728000FE324 /* TrainStationItem.swift */; };
+		CDEF28A62B9AF93D000FE324 /* TrainBookingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF28A52B9AF93D000FE324 /* TrainBookingItem.swift */; };
+		CDEF28A92B9B0285000FE324 /* TrainStationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF28A82B9B0285000FE324 /* TrainStationDetail.swift */; };
+		CDEF28AE2B9B03D9000FE324 /* TrainBookingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF28AD2B9B03D9000FE324 /* TrainBookingDetail.swift */; };
+		CDEF28B02B9B0430000FE324 /* SingleTrainStation.json in Resources */ = {isa = PBXBuildFile; fileRef = CDEF28AF2B9B0430000FE324 /* SingleTrainStation.json */; };
+		CDEF28B62B9B046C000FE324 /* SingleBooking.json in Resources */ = {isa = PBXBuildFile; fileRef = CDEF28B52B9B046C000FE324 /* SingleBooking.json */; };
+		CDEF28BA2B9B171C000FE324 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CDEF28B92B9B171C000FE324 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDEF28692B9AE2D3000FE324 /* SafProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEF286C2B9AE2D3000FE324 /* SafProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafProjectApp.swift; sourceTree = "<group>"; };
+		CDEF286E2B9AE2D3000FE324 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDEF28702B9AE2D4000FE324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDEF28732B9AE2D4000FE324 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDEF28882B9AED34000FE324 /* TrainBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainBooking.swift; sourceTree = "<group>"; };
+		CDEF288A2B9AED64000FE324 /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		CDEF288C2B9AED6D000FE324 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CDEF288F2B9AEEFC000FE324 /* TrainStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainStation.swift; sourceTree = "<group>"; };
+		CDEF28922B9AF223000FE324 /* StaticJSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticJSONMapper.swift; sourceTree = "<group>"; };
+		CDEF289A2B9AF383000FE324 /* TrainStation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TrainStation.json; sourceTree = "<group>"; };
+		CDEF289D2B9AF409000FE324 /* TrainBooking.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TrainBooking.json; sourceTree = "<group>"; };
+		CDEF289F2B9AF4EE000FE324 /* TrainBookingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainBookingResponse.swift; sourceTree = "<group>"; };
+		CDEF28A12B9AF516000FE324 /* TrainStationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainStationResponse.swift; sourceTree = "<group>"; };
+		CDEF28A32B9AF728000FE324 /* TrainStationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainStationItem.swift; sourceTree = "<group>"; };
+		CDEF28A52B9AF93D000FE324 /* TrainBookingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainBookingItem.swift; sourceTree = "<group>"; };
+		CDEF28A82B9B0285000FE324 /* TrainStationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainStationDetail.swift; sourceTree = "<group>"; };
+		CDEF28AD2B9B03D9000FE324 /* TrainBookingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainBookingDetail.swift; sourceTree = "<group>"; };
+		CDEF28AF2B9B0430000FE324 /* SingleTrainStation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleTrainStation.json; sourceTree = "<group>"; };
+		CDEF28B52B9B046C000FE324 /* SingleBooking.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleBooking.json; sourceTree = "<group>"; };
+		CDEF28B92B9B171C000FE324 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDEF28662B9AE2D3000FE324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDEF28602B9AE2D3000FE324 = {
+			isa = PBXGroup;
+			children = (
+				CDEF286B2B9AE2D3000FE324 /* SafProject */,
+				CDEF286A2B9AE2D3000FE324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDEF286A2B9AE2D3000FE324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF28692B9AE2D3000FE324 /* SafProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDEF286B2B9AE2D3000FE324 /* SafProject */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF28912B9AF204000FE324 /* Network */,
+				CDEF28842B9AECF9000FE324 /* Features */,
+				CDEF28802B9AEAEA000FE324 /* Resources */,
+				CDEF286C2B9AE2D3000FE324 /* SafProjectApp.swift */,
+				CDEF286E2B9AE2D3000FE324 /* ContentView.swift */,
+				CDEF28702B9AE2D4000FE324 /* Assets.xcassets */,
+				CDEF28722B9AE2D4000FE324 /* Preview Content */,
+				CDEF28B92B9B171C000FE324 /* README.md */,
+			);
+			path = SafProject;
+			sourceTree = "<group>";
+		};
+		CDEF28722B9AE2D4000FE324 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF28732B9AE2D4000FE324 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDEF28802B9AEAEA000FE324 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF289C2B9AF3ED000FE324 /* JSON */,
+				CDEF288A2B9AED64000FE324 /* Symbols.swift */,
+				CDEF288C2B9AED6D000FE324 /* Theme.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDEF28842B9AECF9000FE324 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF28862B9AED08000FE324 /* TrainStation */,
+				CDEF28852B9AECFF000FE324 /* TrainBookings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CDEF28852B9AECFF000FE324 /* TrainBookings */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF28AC2B9B03CD000FE324 /* Details */,
+				CDEF28952B9AF23F000FE324 /* Models */,
+				CDEF28872B9AED29000FE324 /* Views */,
+			);
+			path = TrainBookings;
+			sourceTree = "<group>";
+		};
+		CDEF28862B9AED08000FE324 /* TrainStation */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF28A72B9B0272000FE324 /* Detail */,
+				CDEF28942B9AF239000FE324 /* Models */,
+				CDEF288E2B9AEEED000FE324 /* Views */,
+			);
+			path = TrainStation;
+			sourceTree = "<group>";
+		};
+		CDEF28872B9AED29000FE324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF28882B9AED34000FE324 /* TrainBooking.swift */,
+				CDEF28A52B9AF93D000FE324 /* TrainBookingItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDEF288E2B9AEEED000FE324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF288F2B9AEEFC000FE324 /* TrainStation.swift */,
+				CDEF28A32B9AF728000FE324 /* TrainStationItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDEF28912B9AF204000FE324 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF28922B9AF223000FE324 /* StaticJSONMapper.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CDEF28942B9AF239000FE324 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF28A12B9AF516000FE324 /* TrainStationResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDEF28952B9AF23F000FE324 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF289F2B9AF4EE000FE324 /* TrainBookingResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDEF289C2B9AF3ED000FE324 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF289A2B9AF383000FE324 /* TrainStation.json */,
+				CDEF289D2B9AF409000FE324 /* TrainBooking.json */,
+				CDEF28AF2B9B0430000FE324 /* SingleTrainStation.json */,
+				CDEF28B52B9B046C000FE324 /* SingleBooking.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		CDEF28A72B9B0272000FE324 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF28A82B9B0285000FE324 /* TrainStationDetail.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		CDEF28AC2B9B03CD000FE324 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF28AD2B9B03D9000FE324 /* TrainBookingDetail.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDEF28682B9AE2D3000FE324 /* SafProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEF28772B9AE2D4000FE324 /* Build configuration list for PBXNativeTarget "SafProject" */;
+			buildPhases = (
+				CDEF28652B9AE2D3000FE324 /* Sources */,
+				CDEF28662B9AE2D3000FE324 /* Frameworks */,
+				CDEF28672B9AE2D3000FE324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafProject;
+			productName = SafProject;
+			productReference = CDEF28692B9AE2D3000FE324 /* SafProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDEF28612B9AE2D3000FE324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CDEF28682B9AE2D3000FE324 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = CDEF28642B9AE2D3000FE324 /* Build configuration list for PBXProject "SafProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDEF28602B9AE2D3000FE324;
+			productRefGroup = CDEF286A2B9AE2D3000FE324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDEF28682B9AE2D3000FE324 /* SafProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDEF28672B9AE2D3000FE324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEF28742B9AE2D4000FE324 /* Preview Assets.xcassets in Resources */,
+				CDEF28B62B9B046C000FE324 /* SingleBooking.json in Resources */,
+				CDEF28B02B9B0430000FE324 /* SingleTrainStation.json in Resources */,
+				CDEF28BA2B9B171C000FE324 /* README.md in Resources */,
+				CDEF289E2B9AF409000FE324 /* TrainBooking.json in Resources */,
+				CDEF289B2B9AF383000FE324 /* TrainStation.json in Resources */,
+				CDEF28712B9AE2D4000FE324 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDEF28652B9AE2D3000FE324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEF288B2B9AED64000FE324 /* Symbols.swift in Sources */,
+				CDEF28902B9AEEFC000FE324 /* TrainStation.swift in Sources */,
+				CDEF28AE2B9B03D9000FE324 /* TrainBookingDetail.swift in Sources */,
+				CDEF28A92B9B0285000FE324 /* TrainStationDetail.swift in Sources */,
+				CDEF28892B9AED34000FE324 /* TrainBooking.swift in Sources */,
+				CDEF288D2B9AED6D000FE324 /* Theme.swift in Sources */,
+				CDEF28A02B9AF4EE000FE324 /* TrainBookingResponse.swift in Sources */,
+				CDEF286F2B9AE2D3000FE324 /* ContentView.swift in Sources */,
+				CDEF28932B9AF223000FE324 /* StaticJSONMapper.swift in Sources */,
+				CDEF28A62B9AF93D000FE324 /* TrainBookingItem.swift in Sources */,
+				CDEF28A22B9AF516000FE324 /* TrainStationResponse.swift in Sources */,
+				CDEF28A42B9AF728000FE324 /* TrainStationItem.swift in Sources */,
+				CDEF286D2B9AE2D3000FE324 /* SafProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDEF28752B9AE2D4000FE324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDEF28762B9AE2D4000FE324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDEF28782B9AE2D4000FE324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SafProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 52W5AMT5C2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mbayi.SafProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDEF28792B9AE2D4000FE324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SafProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 52W5AMT5C2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mbayi.SafProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDEF28642B9AE2D3000FE324 /* Build configuration list for PBXProject "SafProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEF28752B9AE2D4000FE324 /* Debug */,
+				CDEF28762B9AE2D4000FE324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDEF28772B9AE2D4000FE324 /* Build configuration list for PBXNativeTarget "SafProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEF28782B9AE2D4000FE324 /* Debug */,
+				CDEF28792B9AE2D4000FE324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDEF28612B9AE2D3000FE324 /* Project object */;
+}

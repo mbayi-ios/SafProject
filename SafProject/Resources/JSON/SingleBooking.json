@@ -1,0 +1,9 @@
+{
+    "data": {
+        "id": 1,
+        "passengerName": "Mark",
+        "startStation": 1,
+        "exitStation": 2
+    }
+}
+

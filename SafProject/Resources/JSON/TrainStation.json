@@ -1,0 +1,30 @@
+{
+    "data" :[
+        {
+            "id": 0,
+            "stationName": "Nairobi"
+        },
+        {
+            "id": 1,
+            "stationName": "Athi River"
+        },
+        {
+            "id": 2,
+            "stationName": "Emali"
+        },
+        {
+            "id": 3,
+            "stationName": "Kibwezi"
+        },
+        {
+            "id": 4,
+            "stationName": "Voi"
+        },
+        {
+            "id": 5,
+            "stationName": "Miritini"
+        }
+    ]
+    
+}
+

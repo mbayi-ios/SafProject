@@ -1,0 +1,22 @@
+{
+    "data":[
+        {
+            "id": 1,
+            "passengerName": "Mark",
+            "startStation": 1,
+            "exitStation": 2
+        },
+        {
+            "id" : 2,
+            "passengerName": "Ryan",
+            "startStation": 1,
+            "exitStation": 4
+        },
+        {
+            "id": 3,
+            "passengerName": "Gideon",
+            "startStation": 2,
+            "exitStation": 5
+        }
+    ]
+}
